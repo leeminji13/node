@@ -22,7 +22,7 @@ app.get('/react',function(req,res){
     res.send('리액트')
 })
 
-app.use('/user',portlink);
+app.use('/mylink',portlink);
 
 app.listen(8080,function(){
     console.log('서버구동')
